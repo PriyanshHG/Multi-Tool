@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+</head>
+<body>
+  <?php include('common-header.php'); ?>
+  <h1>Age Calculator</h1>
+  <form method="POST">
+    <label for="dob">Enter Your Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+    <button type="submit" name="submit">Calculate Age</button>
+  </form>
+  <?php
+    if (isset($_POST['submit'])) {
+      $dob = new DateTime($_POST['dob']);
+      $today = new DateTime();
+      $interval = $dob->diff($today);
+      echo "<h3>Your Age: " . $interval->y . " years, " . $interval->m . " months, " . $interval->d . " days</h3>";
+    }
+  ?>
+  <?php include('ads.php'); ?>
+</body>
+</html>
