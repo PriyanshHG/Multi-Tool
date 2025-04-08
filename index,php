@@ -1,0 +1,46 @@
+<?php include 'includes/common-header.php'; ?>
+<h2>Welcome to the Multi-Tool Website</h2>
+<div class="tools">
+    <a href="tools/age-calculator.php" class="tool-link">
+        <img src="images/age-icon.png" alt="Age Calculator">
+        Age Calculator
+    </a>
+    <a href="tools/world-counter.php" class="tool-link">
+        <img src="images/world-counter-icon.png" alt="World Counter">
+        World Counter
+    </a>
+    <a href="tools/calorie-calculator.php" class="tool-link">
+        <img src="images/calorie-icon.png" alt="Calorie Calculator">
+        Calorie Calculator
+    </a>
+    <a href="tools/bmi-calculator.php" class="tool-link">
+        <img src="images/bmi-icon.png" alt="BMI Calculator">
+        BMI Calculator
+    </a>
+    <a href="tools/percentage-calculator.php" class="tool-link">
+        <img src="images/percentage-icon.png" alt="Percentage Calculator">
+        Percentage Calculator
+    </a>
+    <a href="tools/image-resizer.php" class="tool-link">
+        <img src="images/resizer-icon.png" alt="Image Resizer">
+        Image Resizer
+    </a>
+    <a href="tools/image-compressor.php" class="tool-link">
+        <img src="images/compressor-icon.png" alt="Image Compressor">
+        Image Compressor
+    </a>
+    <a href="tools/image-cropper.php" class="tool-link">
+        <img src="images/cropper-icon.png" alt="Image Cropper">
+        Image Cropper
+    </a>
+    <a href="tools/image-rotator.php" class="tool-link">
+        <img src="images/rotator-icon.png" alt="Image Rotator">
+        Image Rotator
+    </a>
+    <a href="tools/image-converter.php" class="tool-link">
+        <img src="images/converter-icon.png" alt="Image Converter">
+        Image Converter
+    </a>
+</div>
+<?php include 'includes/ads.php'; ?>
+<?php include 'includes/common-footer.php'; ?>
