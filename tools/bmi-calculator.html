@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <?php include 'common-header.php'; ?>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>BMI Calculator</h1>
+        </header>
+
+        <main>
+            <form id="bmiForm">
+                <label for="weight">Weight (kg):</label>
+                <input type="number" id="weight" required>
+
+                <label for="height">Height (m):</label>
+                <input type="number" step="0.01" id="height" required>
+
+                <button type="submit">Calculate BMI</button>
+            </form>
+
+            <div id="bmiResult"></div>
+        </main>
+
+        <?php include 'ads.php'; ?>
+
+        <footer>
+            <p>&copy; 2025 Dubey Dynamics</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
